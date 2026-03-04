@@ -1,23 +1,22 @@
 class Cubo{
-    constructor(aresta){
-        this.aresta = aresta
+    constructor(a){
+        this.a = a
     }
 
     // cálculo da Área Lateral do cubo
-    calcularAreaLateralCubo(){
-        return 4 * (this.aresta * this.aresta)
+    calcularAreaLateral(){
+        return 4 * (this.a * this.a)
     }
 
     // cálculo da Área Total do cubo
-    calcularAreaTotalCubo(){
-        return 6 * (this.aresta * this.aresta)
+    calcularAreaTotal(){
+        return 6 * (this.a * this.a)
     }
 
     // cálculo do volume do cubo
-    calcularVolumeCubo(){
-        return (this.aresta * this.aresta * this.aresta)
+    calcularVolume(){
+        return (this.a * this.a * this.a)
     }
-
 }
 
 module.exports = Cubo
