@@ -29,10 +29,10 @@ do{
         let areaTotalCil = cil.calcularAreaTotalCil()
         let volumeCil = cil.calcularVolumeCil()
 
-        console.log(` A área da Base do cilindro de raio ${r} é: ${areaBaseCil.toFixed(3)}`)
-        console.log(` A área Lateral do cilindro de raio ${r} e altura ${h} é: ${areaLateralCil.toFixed(3)}`)
-        console.log(` A área Total do cilindro de Ára da Base ${areaBaseCil.toFixed(3)} e Área Lateral ${areaLateralCil.toFixed(3)} é: ${areaTotalCil.toFixed(3)}`)
-        console.log(` O volume do cilindro de Área da Base ${areaBaseCil.toFixed(3)} e altura ${h} é: ${volumeCil.toFixed(3)}`)
+        console.log(` A área da Base do cilindro de raio ${r} é: ${areaBaseCil.toFixed(3)} cm²`)
+        console.log(` A área Lateral do cilindro de raio ${r} e altura ${h} é: ${areaLateralCil.toFixed(3)} cm²`)
+        console.log(` A área Total do cilindro de Ára da Base ${areaBaseCil.toFixed(3)} e Área Lateral ${areaLateralCil.toFixed(3)} é: ${areaTotalCil.toFixed(3)} cm²`)
+        console.log(` O volume do cilindro de Área da Base ${areaBaseCil.toFixed(3)} e altura ${h} é: ${volumeCil.toFixed(3)} cm³`)
     }else if(op === 2){
         let h = Number(rl.question(`Qual o valor da altura: `))
         let r = Number(rl.question(`Qual o valor do raio: `))
@@ -43,10 +43,10 @@ do{
         let areaTotalCone = cone.calcularAreaTotalCone()
         let volumeCone = cone.calcularVolumeCone()
 
-        console.log(` A área da Base do cone de altura ${h} e raio ${r} é: ${areaBaseCone.toFixed(3)}`)
-        console.log(` A área Lateral do cone de raio ${r} e geratriz ${g} é: ${areaLateralCone.toFixed(3)}`)
-        console.log(` A área Total do cone de raio ${r} e geratriz ${g} é: ${areaTotalCone.toFixed(3)}`)
-        console.log(` O volume do cone de altura ${h} e raio ${r} é: ${volumeCone.toFixed(3)}`)
+        console.log(` A área da Base do cone de altura ${h} e raio ${r} é: ${areaBaseCone.toFixed(3)} cm²`)
+        console.log(` A área Lateral do cone de raio ${r} e geratriz ${g} é: ${areaLateralCone.toFixed(3)} cm²`)
+        console.log(` A área Total do cone de raio ${r} e geratriz ${g} é: ${areaTotalCone.toFixed(3)} cm²`)
+        console.log(` O volume do cone de altura ${h} e raio ${r} é: ${volumeCone.toFixed(3)} cm³`)
     }else if(op === 3){
         let a = Number(rl.question(`Qual o valor da aresta: `))
         let cubo = new Cubo(a)
@@ -56,7 +56,7 @@ do{
 
         console.log(` A área Lateral do cubo de aresta ${a} é: ${areaLateral} cm²`)
         console.log(` A área Total do cubo de aresta ${a} é: ${areaTotal} cm²`)
-        console.log(` O volume do cubo de aresta ${a} é: ${volume} cm²`)
+        console.log(` O volume do cubo de aresta ${a} é: ${volume} cm³`)
     }else{
         console.log(' Opção Inválida! Dijite novamente! ')
     }
